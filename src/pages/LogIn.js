@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import LoginComp from "../components/LoginComp";
 import SignupComp from "../components/SignupComp";
-import { UserContext } from "../contexts/UserContext";
 import styles from "../styles/LogIn.Module.css";
 
 function LogIn() {

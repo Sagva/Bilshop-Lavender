@@ -1,6 +1,5 @@
 import styles from "../styles/LogIn.Module.css";
-import React, { useContext, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
 
 function SignupComp() {
