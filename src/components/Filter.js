@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import styles from "../styles/PriceRange.Module.css";
+import styles from "../styles/Filter.Module.css";
 import { CarContext } from "../contexts/CarContext";
-import Searchbar from "../components/Searchbar";
+import Searchbar from "./Searchbar";
 
-function PriceRange() {
+function Filter() {
   const {
     onChangeMinMiles,
     onChangeMaxMiles,
@@ -181,4 +181,4 @@ function PriceRange() {
   );
 }
 
-export default PriceRange;
+export default Filter;
