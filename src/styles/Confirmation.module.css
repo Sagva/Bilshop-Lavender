@@ -1,0 +1,73 @@
+p {
+    margin-bottom: 5px;
+}
+
+.totalPrice {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.companyContacts {
+    position: relative;
+}
+
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: -15px;
+}  
+
+.icon:hover {
+    color: #eeb644;
+}
+
+
+@media (min-width: 576px) {
+    
+    .toPrint {
+        width: 90%;
+    }
+    
+    .productOverview {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .closeButton {
+        position: absolute;
+        top: -30px;
+        right: -30px;
+    }  
+    .dateAndIdBlock {
+        align-self: flex-end;
+    }
+}
+
+@media print {
+    
+	html, body{
+		height: 297mm;
+		width: 210mm;
+        font-size: 14px;
+	}
+    h3 {
+		font-size: 18px;
+	}
+    nav, footer {
+		display: none !important;
+	}
+    .btnBlock, .closeButton {
+		display: none;
+	}
+    .dateAndIdBlock {
+        align-self: flex-end;
+    }
+    .companyContacts{
+        flex-direction: row !important;
+    }
+}
+
+@page {
+	margin: 10mm 10mm 10mm 20mm;
+}

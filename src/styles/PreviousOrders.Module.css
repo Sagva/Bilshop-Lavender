@@ -1,0 +1,10 @@
+.totalPriceStyle {
+  background-color: lightgray;
+  border: none;
+  padding: 10px 10px 10px;
+  margin: auto;
+}
+
+.fatBorder {
+  border-color: black;
+}

@@ -1,0 +1,117 @@
+th {
+    color: #1b1b1b;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 0;
+}
+
+td {
+    vertical-align: middle;
+    width: 15%;
+    padding: 10px;
+    border-color: #e1e1e1;
+}
+
+.productList {
+    width: 55%;
+}
+
+.removeIconBox {
+    margin-right: 15px;
+}
+
+.removeIconBtn {
+    color: #303030;
+    border: none;
+    background: none;
+}
+
+.removeIconBtn:hover {
+    color: #eeb644;
+}
+
+.productThumb {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productThumb img {
+    width: 100%;
+    height: auto;
+}
+
+
+.productName {
+    color: #1b1b1c;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.productName:hover {
+    color: #eeb644;
+}
+
+.price {
+    margin-bottom: 0;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.tableColumn {
+    min-width: 100px;
+}
+
+
+/* Styling for delivety options */
+
+.shippingMethods {
+    margin-top: 50px;
+}
+
+.formCheckBox {
+    margin-bottom: 20px;
+}
+
+.formCheckRadio {
+    margin-right: 10px;
+    padding: 10px 10px;
+}
+
+.formCheckRadio:checked {
+    border-color: #eeb644;
+    background-color: #eeb644;
+
+}
+
+.formCheckRadio:focus {
+    box-shadow: none;
+}
+
+/* Styling for empty cart text */
+
+.emptyCart {
+    color: gray;
+    margin-top: 20px;
+    min-height: 170px;
+}
+
+@media (min-width: 992px) {
+    .deliveryBox {
+        min-height: 190px;
+    }
+
+}
+
+/* Styling for btn 'empty cart' */
+
+.emptyCartTd {
+    border: none !important;
+    border-bottom: 1px solid transparent !important;
+    padding: 0 0 20px 0!important;
+}

@@ -1,0 +1,248 @@
+.about {
+  margin: auto;
+}
+
+.imgContainer {
+  max-width: 100%;
+  /* border: 3px solid white; */
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 30%);
+  filter: brightness(0.5);
+}
+
+.findButton {
+  background-color: #eeb644;
+  border-color: #eeb644;
+  border-radius: 25px;
+  color: #1b1b1c;
+}
+
+.findButton:hover {
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+}
+
+/* call-to-action */
+
+.callToActionContentArea {
+  padding: 100px 0 170px;
+  background-color: #f8f9fa;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .callToActionContentArea {
+    padding-top: 180px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .callToActionContentArea {
+    padding-top: 60px;
+    margin-top: 30px;
+  }
+}
+
+.callToActionContentArea .callToActionTxt h2 {
+  font-size: 40px;
+  margin-bottom: 35px;
+  margin-top: -7px;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .callToActionContentArea .callToActionTxt h2 {
+    font-size: 26px;
+  }
+  .callToActionContentArea .callToActionTxt h2 br {
+    display: none;
+  }
+}
+
+.callToActionContentArea.home2 {
+  padding-bottom: 170px;
+  margin-top: 0;
+}
+
+.callToActionImageArea {
+  background-color: transparent;
+  margin-top: -120px;
+}
+
+@media only screen and (min-width: 576px) {
+  .callToActionImageArea {
+    margin: auto;
+    margin-top: -100px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .imgWrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .callToActionImageArea {
+    margin-top: -150px;
+  }
+  .imgWrapper {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .callToActionImageArea {
+    margin-top: -200px;
+    margin-bottom: 60px;
+  }
+  .imgWrapper {
+    width: 40%;
+  }
+}
+
+/* subscribe to news */
+
+.subscribe {
+  background: url('https://i.imgur.com/aUasQPb.png') no-repeat fixed bottom;
+  background-size: cover;
+  color: #efefef;
+  height: 500px;
+}
+
+@media only screen and (min-width:300px) and (max-width:520px) {
+  .subscribe {
+    height: 500px;
+  }
+}
+
+
+.newsletterContent {
+  color: #d8d8d8;
+  padding: 50px 15px;
+}
+
+.newsletterContent h2, .newsletterContent h3, .newsletterContent h4 {
+  color: #fff;
+  margin-top: 0
+}
+
+@media only screen and (min-width:768px) and (max-width:991.98px) {
+  .newsletterContent {
+    padding: 80px 15px
+  }
+}
+
+@media only screen and (max-width:767.98px) {
+  .newsletterContent {
+    padding: 60px 15px;
+  
+  }
+}
+
+.newsletterContent h4 {
+  font-size: 24px;
+  font-weight: 300
+}
+
+@media only screen and (max-width:767.98px) {
+  .newsletterContent h4 {
+    font-size: 20px
+  }
+}
+
+.newsletterContent h4 span {
+  color: #eeb644
+}
+
+.newsletterContent h2 {
+  font-size: 32px;
+  font-weight: 600
+}
+
+@media only screen and (max-width:767.98px) {
+  .newsletterContent h2 {
+    font-size: 26px
+  }
+}
+
+/* newsletter form */
+
+.newsletterFormWrap {
+  margin: 44px auto 0;
+}
+
+@media only screen and (min-width:1200px) {
+  .newsletterForm-Wrap {
+    max-width: 90%
+  }
+}
+
+@media only screen and (max-width:767.98px) {
+  .newsletterForm-Wrap {
+    margin-top: 34px
+  }
+}
+
+.formContent {
+  position: relative;
+}
+
+.newsletterFormWrap .formContent input {
+  background-color: #00000088;
+  border: 1px solid #d8d8d8;
+  border-radius: 100px;
+  color: #fff;
+  display: block;
+  padding: 12px 165px 12px 20px;
+  width: 100%
+}
+
+@media only screen and (max-width:767.98px) {
+  .newsletterFormWrap .formContent input {
+    padding: 15px
+  }
+}
+
+.btnNewsletter {
+  background-color: #eeb644;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  height: 100%;
+  width: 150px;
+  top: 0;
+  right: 0
+}
+
+@media only screen and (max-width:767.98px) {
+  .newsletterFormWrap .formContent .btnNewsletter {
+    position: static;
+    padding: 10px;
+    margin-top: 20px
+  }
+}
+
+.newsletterFormWrap .formContent .btnNewsletter:hover {
+  background-color: #d8d8d8;
+  color: #1b1b1c
+}
+/* need help */
+.needHelpArea{
+  background-color: #f8f9fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.helpBtn{
+  background-color: #1b1b1c;
+  border-color: #1b1b1c;
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.helpBtn:hover{
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+  color: #1b1b1c;
+}

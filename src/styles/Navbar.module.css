@@ -1,0 +1,92 @@
+a,
+.logOutButton {
+  margin-right: 15px;
+  color: #1b1b1c;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover,
+.logOutButton:hover {
+  color: #eeb644;
+}
+
+.brandName {
+  transition: transform 0.2s;
+}
+
+.brandName:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+li {
+  margin: 5px 0;
+}
+
+.navbarList {
+  flex-grow: 0;
+}
+
+nav {
+  position: relative;
+  padding: 0 5px;
+  margin-right: 1rem;
+}
+.myBtn {
+  padding: 0 15px;
+}
+.shoppingCartIcon {
+  margin-right: 1.8rem;
+  font-size: 23px;
+  color: #3a3a3a;
+}
+.cartNumStyling {
+  position: absolute;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  width: 18px;
+  height: 18px;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  margin-left: 30px;
+  border-radius: 50%;
+  background-color: red;
+  color: #ffffff;
+}
+
+.cartPriceStyling {
+  position: absolute;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2.1rem;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  border-radius: 0.2rem;
+  padding: 0;
+}
+
+Link {
+  display: block;
+  background-color: red;
+}
+
+.cartWrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+@media (min-width: 576px) {
+  .shoppingCartIcon {
+    position: static;
+  }
+  nav {
+    margin: 0 30px;
+  }
+  .cartPriceStyling {
+    /* border: 1px solid black; */
+  }
+}

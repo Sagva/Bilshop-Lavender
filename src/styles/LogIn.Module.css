@@ -1,0 +1,30 @@
+.loginContainer{
+ margin-top: 5rem;
+ margin-bottom: 2rem;
+}
+.buttonBtn2{
+  display: block;
+  margin: 0 auto;
+  background-color: white !important;
+  border: 1px solid#383838 !important;
+  color: #383838 !important;
+  font-size: 0.8rem;
+  margin-bottom: 22vh;
+  /* margin-bottom: 153px; */
+}
+
+.buttonBtn2:hover {
+  border-color: #eeb644 !important;
+  color: #eeb644 !important;
+  background-color: white !important;
+}
+
+.loginButton {
+  border-color: #eeb644 !important;
+  background-color: #eeb644 !important;
+}
+
+.loginButton:hover {
+  background-color: #383838 !important;
+  border-color: #383838 !important;
+}

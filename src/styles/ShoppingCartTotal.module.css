@@ -1,0 +1,29 @@
+.cartTotal {
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+
+.cartTotalHeading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.toCheckoutBtnBox {
+    margin: 15px 0 0;
+}
+
+.toCheckoutBtn,
+.closeBtn {
+    background-color: #eeb644;
+    border-color: #eeb644;
+    border-radius: 25px;
+    color: #1b1b1c;
+    font-size: 14px;
+}
+.toCheckoutBtn:hover, 
+.closeBtn:hover {
+    background-color: #d8d8d8;
+    border-color: #d8d8d8;
+}

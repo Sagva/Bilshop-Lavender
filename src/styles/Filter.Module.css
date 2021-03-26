@@ -1,0 +1,139 @@
+.filtercontainer {
+  padding: 20px;
+}
+
+.filtercontainer>form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+@media (min-width: 1000px) {
+  .inputsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inputItem {
+    flex-basis: calc((100% /2) - 2rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .rowLargeView {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rowItemLargeView {
+    flex-basis: calc((100% / 2) - 0.2rem);
+    display: flex;
+    justify-content: space-between;
+  }
+  .innerRowItemsLarge {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .col6Large {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-bottom: 0px !important;
+  }
+  .secondLineLargeView {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.accordionCustom{
+  background-color: #f8f9fa;
+  background: linear-gradient(0deg, rgba(248,249,250,1) 88%, rgba(255,255,255,1) 100%);
+  margin-bottom: 50px;
+  box-shadow:#8a877f54 20px 8px 9px 0px;
+ 
+}
+
+.accordionBtn {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent !important;
+  color: #303030 !important;
+  text-align: right !important;
+  padding-top: 13px;
+  padding-bottom: 50px;
+  padding-left: 0;
+}
+
+.accordionBtn:not(.collapsed)::after {
+  background: url('https://api.iconify.design/ic:baseline-expand-more.svg?color=%23eeb544&width=1.5rem&height=1.5rem') no-repeat center center;
+}
+
+.accordionBtn:after {
+  margin-left: 20px !important;
+}
+
+.accordionBtn:focus {
+  box-shadow: none;
+}
+
+.btnText {
+  display: block;
+  font-size: 1.1rem;
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  margin-left: auto;
+}
+
+.accordionColapse {
+  border: none !important;
+  margin-bottom: 80px;
+}
+
+.lable {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  color: #303030;
+  font-size: 1.1rem;
+}
+
+.formSelect {
+  color: #88807d;
+  background: url('https://api.iconify.design/ic:baseline-expand-more.svg?color=%23d3d3d3&width=1.3rem&height=1.3rem') no-repeat right 10px center;
+}
+
+.formControl{
+  background-color: transparent !important;
+}
+.formSelect:focus, .formControl:focus {
+  border: 0.5px solid rgb(238, 182, 68) !important;
+  box-shadow: none;
+}
+
+.filterBtn {
+  width: 100%;
+  background-color: #eeb644;
+  border-color: #eeb644;
+  border-radius: 0.2rem;
+  color: #1b1b1c;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.025em;
+  line-height: 41px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: 1rem;
+}
+
+.filterBtn:hover {
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+}

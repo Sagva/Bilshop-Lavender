@@ -1,0 +1,43 @@
+.containerFluid {
+  overflow: hidden;
+  background: #000000;
+  color: #ffffff !important;
+  padding-bottom: 30px !important;
+}
+
+.brandName {
+  color: #feb737 !important;
+  font-size: calc(
+    34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.mt55 {
+  margin-top: calc(
+    50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+}
+
+.social {
+  font-size: 21px !important;
+}
+
+.footerLink {
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footerLink:hover,
+.social span:hover {
+  color: #feb737 !important;
+  cursor: pointer;
+}
+
+.footerEmail {
+  font-size: calc(
+    12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))
+  ) !important;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: none;
+}

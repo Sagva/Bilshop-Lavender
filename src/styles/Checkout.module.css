@@ -1,0 +1,102 @@
+.checkoutBillingDetailsWrap {
+  /* margin-top: 90px; */
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .checkoutBillingDetailsWrap {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .checkoutBillingDetailsWrap {
+    margin-top: 40px;
+  }
+}
+
+.checkoutBillingDetailsWrap .h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  position: relative;
+  padding-bottom: 15px;
+  /* margin-bottom: 46px; */
+}
+
+@media only screen and (max-width: 767.98px) {
+  .checkoutBillingDetailsWrap .h2 {
+    margin-bottom: 26px;
+  }
+}
+
+.checkoutBillingDetailsWrap .h2:before {
+  background-color: #1b1b1c;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 50px;
+}
+
+.inputItem {
+  margin-bottom: 25px;
+  display: block;
+  border:none;
+} 
+
+
+
+.input {
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+  border: 0.5px solid #e1e1e1;
+}
+
+
+.input:focus {
+  border: 0.5px solid #eeb644;   
+}
+
+.input::placeholder {
+  transition: 0.4s;
+  resize: none;
+  overflow: hidden;
+  pointer-events: none;
+  margin: 0;
+}
+
+.billingFormWrap {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.placeOrderButton{
+  background-color: #eeb644;
+  border-color: #eeb644;
+  border-radius: 25px;
+  color: #1b1b1c;
+  font-size: 14px;
+}
+
+.placeOrderButton:hover {
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+}
+
+/* remove arrows from input number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

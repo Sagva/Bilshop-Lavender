@@ -1,0 +1,88 @@
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.imgCars {
+  /* margin-top: 0.7rem; */
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem 0.2rem 0rem 0rem;
+}
+
+.itemWrapper {
+  padding-bottom: 2rem;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin: 1.5rem;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: #8a877f 1px 1px 7px;
+}
+
+.itemWrapper:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.detailsButton {
+  border: 1px solid #383838;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #383838;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .detailsButton {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .detailsButton {
+    font-size: 0.7rem;
+  }
+}
+
+.detailsButton:hover {
+  border-color: #eeb644;
+  color: #eeb644;
+}
+
+.carItemCart {
+  margin-left: 0px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.carItemCart:hover {
+  color: #eeb644;
+}
+
+.milesSpan {
+  color: #080202;
+  font-size: 1rem;
+}
+
+.priseSpan {
+  color: #ad2626;
+  font-size: 1.2rem;
+}
+/* .carousel.caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+} */
+
+
+.soldCar {
+  color: #ad2626;
+  font-size: 20px;
+}
