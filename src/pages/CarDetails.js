@@ -22,6 +22,14 @@ export default function CarDetails(props) {
     }
   }, [copyCars, location]);
 
+  //for scrolling to top of the page when the user goes from Shopping cart page to checkout on mobile (page on mobile is long and without that function opens in the middle/end of te page).
+  function ScrollToTopOnMount() { //function uses as component in the beginning of the jsx codee 
+    useEffect(() => {
+      document.querySelector('body').scrollTo(0, 0)
+    }, []);
+
+    return null;
+  }
 
   //To mark a car that is in the shopping cart
   let isCarInShoppingCart = false;
@@ -53,6 +61,7 @@ export default function CarDetails(props) {
     return (
       <>
         <div className="container mt-5">
+        <ScrollToTopOnMount />
           <div className="row">
             <div className="col-12">
               <div className="row">
